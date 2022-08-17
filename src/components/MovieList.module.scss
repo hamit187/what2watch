@@ -1,0 +1,24 @@
+.layout {
+    & h1 {
+        text-align: center;
+        font-size: 8rem;
+        font-weight: 300;
+    }
+}
+
+.movie {
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    & p {
+        font-size: 3rem;
+    }
+
+    & img{
+        height: 40rem;
+        width: 30rem;
+    }
+}
